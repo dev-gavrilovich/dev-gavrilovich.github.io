@@ -1,0 +1,252 @@
+/* Хлебные крошки */
+
+.crumbs li {
+	margin: 40px 0 20px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.crumbs a {
+	color: #d3d3d3;
+}
+
+/* Фото */
+
+.top {
+	height: 420px;
+	margin-bottom: 50px;
+}
+
+.top > h1 {
+	margin-bottom: 20px;
+}
+
+.left_col {
+	border: 1px solid #d3d3d3;
+	border-radius: 4px;
+	height: 363px; 
+	width: 363px;
+	box-sizing: border-box;
+	float: left;
+	margin-right: 38px;
+	padding: 4px;
+}
+
+.right_col {
+	float: left;
+	width: 760px;
+}
+
+.rating {
+	float: left;
+	margin: 0 36px 32px 0;
+	height: 15px;
+	width: 83px;
+	background-image: url(../images/empty_star.png);
+	background-repeat: repeat-x;
+}
+
+.fill_rating {
+	height: 15px;
+	background-image: url(../images/fill_star.png);
+	background-repeat: repeat-x;
+}
+
+.mater {
+	font-family: 'Proxima Nova Lt';
+}
+
+.voices {
+	color: #d3d3d3;
+}
+
+.main_char {
+	margin-bottom: 23px;
+}
+
+.main_char li {
+	font-family: 'Cuprum Bold';
+	font-size: 17px;
+}
+
+.main_char h2 {
+	margin-bottom: 15px;
+}
+
+.set {
+	float: left;
+	margin-right: 295px;
+}
+
+.set_value {
+	float: left;
+}
+
+.order_space {
+	margin-bottom: 22px;
+}
+
+.price {
+	margin: 0;
+	height: 35px;
+}
+
+.credit p {
+	font-family: 'Proxima Nova Lt';
+	color: #d3d3d3;
+}
+
+.credit {
+	float: left;
+	margin-right: 40px;
+}
+
+.ship {
+	float: left;
+}
+
+.box {
+	float: left;
+	width: 29px;
+	height: 25px;
+}
+
+.green_text {
+	float: left;
+	font-family: 'Proxima Nova Lt';
+	color: #16B815;
+}
+
+.buy_button {
+	float: left;
+	margin-right: 36px;
+}
+
+.one_click {
+	float: left;
+}
+
+/*  Панель вкладок */
+
+th, .tabs h2 {
+	font-family: 'Proxima Bold';
+	font-size: 24px;
+	line-height: 24px;
+	margin: 26px 0 20px 0;
+}
+
+tr {
+	font-family: 'Cuprum';
+	font-size: 18px;
+	line-height: 24px; 
+}
+
+.tabs {
+	width: 100%;
+	height: 337px;
+}
+
+.tabs ul, .tabs li {
+	margin: 0;
+	padding: 0;
+}
+
+.tabs input[type="radio"] {
+	opacity: 0;
+}
+
+.tabs, .tabs input {
+	position: relative;
+}
+
+.tabs li, .tabs input[type="radio"] + label {
+	float: left;
+}
+
+.tabs div, .tabs input[type="radio"] {
+	position: absolute;
+}
+
+.tabs li {
+	vertical-align: top;
+}
+
+.tabs div {
+	top: 36px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 0 61px 0 20px;
+	overflow: auto;
+	border: solid 1px #d3d3d3;
+	border-top-color: #0080EC;
+	background: #fff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+#tabs-0-1 ~ div {
+	padding: 0;
+}
+
+.tabs label {
+	height: 31px;
+	padding: 2px 61.5px;
+	margin-right: -1px;
+	line-height: 32px;
+	text-align: center;
+	border: 1px solid #0080EC;
+	border-radius: 4px 4px 0 0;
+	cursor: pointer;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#tabs-0-4 label {
+	width: 85px;
+}
+
+
+.tabs input[type="radio"]:checked + label {
+	z-index: 1;
+	background: #0080EC;
+	color: white;
+	cursor: default;
+}
+
+.tabs input[type="radio"] ~ div {
+	display: none;
+}
+
+.tabs input[type="radio"]:checked ~ div {
+	display: block;
+}
+
+.tabs input[type="radio"]:disabled + label {
+	cursor: no-drop;
+}
+
+/* Таблица характеристик */
+
+table {
+	width: 100%
+}
+
+th {
+	background-color: #f3f3f3;
+	line-height: 35px;
+}
+
+td {
+	width: 50%;
+}
+
+td:nth-child(2n) {
+	color: #8c8c8c;
+}
+
+th, td {
+	padding-left: 10px;
+}

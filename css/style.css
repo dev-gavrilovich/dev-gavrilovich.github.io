@@ -1,0 +1,611 @@
+main {
+	min-height: calc(100vh - 360px);
+	margin-bottom: 300px; 
+}	
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	font-family: 'Proxima Extra';
+	font-size: 32px;
+}
+
+h2, .font_h2 {
+	font-family: 'Proxima Bold';
+	font-size: 24px;
+	line-height: 24px;
+}
+
+h3, .font_h3 {
+	font-family: 'Proxima Nova Lt';
+	font-size: 16px;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* оформление */
+
+nav {
+	background-color: #f3f3f3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 38px;
+	font-size: 16px;
+	font-family: 'Proxima Nova Lt';
+}
+
+.wrapper {
+	width: 1164px;
+	margin: 0 auto;
+	padding-left: 62px;
+	padding-right: 62px;
+}
+
+.wrapper .left {
+	float: left;
+	line-height: 38px;
+}
+
+.left li {
+	display: inline-block;
+	margin-right: 34px;
+}
+
+.call_icon {
+	margin-right: 10px;
+}
+
+.wrapper .right {
+	float: right;
+	line-height: 38px;
+}
+
+
+.login a{
+	color: #277fe8;
+}
+
+/* форма поиска */
+
+header {
+	margin-top: 63px;
+	height: 45px;
+}
+
+.logo, .search, .basket {
+	float: left;
+}
+
+.logo {
+	margin-right: 58px;
+}
+
+.search {
+	width: 684px;
+	position: relative;
+	vertical-align: top;
+}
+
+.search input {
+	height: 39px;
+	padding: 0 10px 0 15px;
+	border: 1px solid #dbdcdd;
+	border-radius: 4px 0 0 4px;
+	width: 615px;
+	outline: none;
+	font-family: 'Proxima Nova Lt';
+	font-size: 16px;
+}
+
+.search input::-webkit-input-placeholder {
+	color: #dbdcdd;
+}
+
+.search button {
+	position: absolute; 
+	top: 0px;
+	right: 0px;
+	width: 70px;
+	height: 39px;
+	border: none;
+	background: #277fe8;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+	background-image: url(../images/search_icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	outline: none;
+}
+
+.basket	{
+	width: 160px;
+	height: 39px;
+	background-image: url(../images/button_normal.png);
+	vertical-align: top;
+	cursor: pointer;
+	float: right;
+}
+
+.basket:hover {
+	background-image: url(../images/button_hover.png);
+}
+
+.basket:active {
+	background-image: url(../images/button_active.png);
+}
+
+/* категории */
+
+main {
+	margin-top: 35px;
+}
+
+.catalog a {
+	display: block;
+	width: 204px;
+	height: 134px;
+	margin-right: 36px;
+	float: left;
+	text-align: center;
+	border: 1px solid #93bff3;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.catalog a:nth-child(5) {
+	margin: 0;
+}
+
+.cat_item img {
+	margin: 20px 0 9px;
+	display: inline-block;
+}
+
+.cat_item p {
+	line-height: 16px;
+	font-size: 16px;
+	font-family: 'Proxima Nova Lt';
+}
+
+.catalog a:active {
+	background-color: #cbe8fe;
+}
+
+.catalog a:hover {
+	border-color: #277fe8;
+}
+
+/* банер */
+
+.banner {
+	margin-top: 40px;
+	position: relative;
+}
+
+.arrow_left, .arrow_right {
+	background-repeat: no-repeat;
+	height: 92px;
+	width: 92px;
+	position: absolute;
+	top: 160px;
+}
+
+.arrow_left {
+	background-image: url(../images/button_left.png);
+	left: -46px;
+}
+
+.arrow_right {
+	background-image: url(../images/button_right.png);
+	right: -46px;
+}
+
+.arrows {
+    display: block;
+    width: 92px;
+    height: 92px;
+    border-radius: 100px;
+ }
+
+/* Поддержка */
+
+.quality {
+	margin: 35px 0 100px;
+	height: 135px;
+}
+
+.quality img {
+	float: left;
+	width: 109px;
+	margin: 0 30px 10px 0;
+ }
+
+.garanty, .support, .sale {
+	float: left;
+	width: 364px;
+	height: 135px;
+	margin-right: 36px;
+}
+.sale {
+	margin-right: 0;
+}
+
+.text {
+	margin-top: 20px;
+	font-family: 'Cuprum';
+	font-size: 18px;
+	line-height: 24px; 
+}
+
+/* Акции */
+
+.promo div {
+	border-radius: 4px;
+	background-repeat: no-repeat;
+	height: 343px;
+}
+
+.top_left {
+	background-image: url(../images/promo_1.png);
+	width: 764px;
+	margin: 30px 36px 36px 0;
+	float: left;
+}
+.top_left a{
+	display: block;
+	height: 343px;  
+	width: 764px;
+}
+
+.top_right {
+	background-image: url(../images/promo_2.png);
+	margin: 30px 0 36px;
+	width: 364px;
+	float: right;
+}
+.top_right a{
+	display: block;
+	height: 343px;  
+	width: 364px;
+}
+
+.bot_left {
+	background-image: url(../images/promo_3.png);
+	margin-right: 36px;
+	width: 524px;
+	float: left;
+}
+.bot_left a{
+	display: block;
+	height: 343px;  
+	width: 524px;
+}
+
+.bot_right {
+	background-image: url(../images/promo_4.png);
+	width: 604px;
+	float: right;
+}
+.bot_right a{
+	display: block;
+	height: 343px;  
+	width: 604px;
+}
+
+/* Новинки */
+
+.new_items {
+	margin-top: 100px;
+}
+
+.new_items h1 {
+	margin-bottom: 30px;
+}
+
+.new_it {
+	border: 1px solid #dbdcdd;
+	border-radius: 4px;
+	width: 204px;
+	height: 393px;
+	float: left;
+	margin-right: 36px;
+	box-sizing: border-box;
+}
+.new_it:last-child {
+	margin-right: 0;
+}
+
+.product {
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+.description {
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'Proxima Nova Lt';
+	margin: 0 0 10px 10px;
+	height: 74px;
+}
+
+.rating {
+	margin: 0 0 15px 10px;
+	height: 15px;
+	width: 83px;
+	background-image: url(../images/empty_star.png);
+	background-repeat: repeat-x;
+}
+
+.fill_rating {
+	background-image: url(../images/fill_star.png);
+	background-repeat: repeat-x;
+	height: 15px;
+}
+
+.star_3 {
+	width: 51px;
+}
+
+.star_4 {
+	width: 68px;
+}
+
+.star_5 {
+	width: 85px;
+}
+
+.price {
+	font-family: 'Proxima Nova Lt';
+	margin: 0 0 15px 10px;
+	height: 45px;  
+}
+
+.actual {
+	position: relative;
+	top: 24px;
+}
+
+.prev_value {
+	color: #d24a43;
+	text-decoration: line-through;
+	margin-bottom: 5px;
+	display: inline-block; 
+}
+
+.number {
+	color: #d3d3d3;
+}
+
+.prev_currency {
+	background-image: url(../images/sm_rouble.png);
+	background-repeat: no-repeat;
+	height: 11px;
+	width: 7px;
+	display: inline-block; 
+}
+
+.dur_value {
+	display: inline-block;
+}
+
+.dur_currency {
+	background-image: url(../images/big_rouble.png);
+	background-repeat: no-repeat;
+	height: 16px;
+	width: 12px;
+	display: inline-block;
+}
+
+.buy {
+	text-align: center;
+	letter-spacing: -4px;
+	height: 39px;
+}
+
+.in_basket, .compare {
+	height: 39px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.in_basket {
+	background-image: url(../images/buy_button.png);
+	width: 135px;
+	margin-right: 10px;
+}
+
+.compare {
+	background-image: url(../images/compare_button.png);
+	width: 37px;
+}
+
+/* Заказ ПК */
+
+.order {
+	margin-top: 100px;
+	background-image: url(../images/form.png);
+	background-repeat: no-repeat;
+	height: 247px;
+	padding-top: 35px;
+	box-sizing: border-box;
+}
+
+.order_head {
+	text-align: center;
+	margin-bottom: 33px;
+}
+
+.order_info {
+	font-family: 'Cuprum';
+	color: #d3d3d3;
+	line-height: 24px;
+	font-size: 18px;
+	margin-top: 5px; 
+}
+
+#data {
+	height: 39px;
+	text-align: center;
+	letter-spacing: -4px;
+}
+
+
+input[type="name"], input[type="phone"] {
+	outline: none;
+	font-family: 'Proxima Bold';
+	font-size: 24px;
+	line-height: 24px;
+	border: none;
+	border-bottom: 2px solid #277fe8;
+	width: 285px;
+	margin-right: 35px;
+	vertical-align: bottom;
+	display: inline-block;
+	margin-bottom: 4px;
+}
+
+input[type="name"]::-webkit-input-placeholder {
+	color: black;
+}
+
+input[type="phone"]::-webkit-input-placeholder {
+	color: black;
+}
+
+#send {
+	height: 39px;
+	width: 204px;
+	border-radius: 4px;
+	display: inline-block;
+	background-image: url(../images/form_button.png);
+	cursor: pointer;
+	border: none;
+	background-repeat: no-repeat;
+	outline: none;
+}
+
+/* Новости */
+
+.news {
+	margin: 100px 0 200px;
+}
+
+.news h1 {
+	margin-bottom: 15px;
+}
+
+.news_1, .news_2, .news_3 {
+	float: left;
+	margin-right: 36px;
+	box-sizing: border-box;
+}
+
+.news_3 {
+	margin: 0;
+}
+
+.news_date {
+	line-height: 16px;
+	font-size: 16px;
+	font-family: 'Proxima Nova Lt';
+	color: #d3d3d3;
+	margin-bottom: 13px;
+}
+
+.news_image {
+	height: 195px;
+	width: 364px;
+}
+.news_title {
+	line-height: 30px;
+	font-size: 24px;
+	font-family: 'Proxima Bold';
+}
+
+/* Подвал */
+
+footer {
+	position: absolute;
+	min-width: 100%;
+}
+
+.blue_bottom {
+	background-color: #9ED4FF;
+	padding-top: 30px;
+	height: 250px;
+}
+
+.grey_bottom {
+	background-color: #f3f3f3;
+	height: 80px;
+}
+
+footer h2 {
+	margin-bottom: 15px;
+}
+.about, .customer, .help, .connect {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.about {
+	margin-right: 30px;
+}
+
+.customer {
+	margin-right: 50px;
+}
+
+.help {
+	margin-right: 110px;
+}
+
+.hot_line {
+	margin-bottom: 35px;
+}
+
+.hot_line p {
+	font-family: 'Proxima Extra';
+	font-size: 32px;
+	color: #277fe8;
+}
+
+.social a {
+	float: left;
+	width: 40px;
+	margin-right: 10px;
+}
+
+.wrapper ul {
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'Proxima Nova Lt';
+}
+
+/* Права */
+
+.rights {
+	line-height: 24px;
+	font-size: 16px;
+	font-family: 'Proxima Nova Lt';
+	padding-top: 30px;
+}

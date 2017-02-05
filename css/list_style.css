@@ -1,0 +1,125 @@
+/* Хлебные крошеи */
+
+.crumbs li {
+	margin: 40px 0 20px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.crumbs a {
+	color: #d3d3d3;
+}
+
+/* Список */
+
+.product {
+	border: 1px solid black;
+	height: 134px;
+	width: 100%;
+	padding: 13px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border-color: #93bff3;
+}
+
+.image {
+	height: 104px;
+	width: 104px;
+	float: left;
+	margin-right: 30px;
+	border: 1px solid #d3d3d3;
+	border-radius: 4px;
+	padding-top: 17px;
+	box-sizing: border-box;
+}
+
+.info {
+	float: left;
+	padding-top: 10px;
+}
+
+/* Оценка */
+
+.rating {
+	margin: 0;
+	height: 15px;
+	width: 83px;
+	background-image: url(../images/empty_star.png);
+	background-repeat: repeat-x;
+	padding-bottom: 7px;
+}
+
+.fill_rating {
+	height: 15px;
+	background-image: url(../images/fill_star.png);
+	background-repeat: repeat-x;
+}
+
+.star_4 {
+	width: 68px;
+}
+
+.score {
+	float: left;
+	margin-right: 30px;
+}
+
+.mater {
+	font-family: 'Proxima Nova Lt';
+}
+
+.voices {
+	color: #d3d3d3;
+}
+
+/* Название */
+
+.caption {
+	width: 644px;
+	float: left;
+	margin-right: 30px;
+	font-family: 'Proxima Bold';
+	font-size: 20px;
+	text-align: left;
+}
+
+.caption p:last-child { 
+	font-family: 'Cuprum';
+	color: #d3d3d3;
+	margin: 0;
+	font-size: 16px;
+}
+
+/* Ценик */
+
+.price_buttons {
+	float: left;
+}
+
+.price {
+	margin: 0;
+	font-family: 'Proxima Bold';
+	line-height: 24px;
+	text-align: left;
+}
+
+.dur_value {
+	font-size: 30px;
+}
+
+.previous {
+	position: relative;
+	top: -5px;
+}
+
+.in_basket {
+	float: left;
+}
+
+.buttons {
+	height: 39px;
+}
+
+.product:hover {
+	border-color: #0080ec;
+}

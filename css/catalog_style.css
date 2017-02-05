@@ -1,0 +1,63 @@
+/* Хлебные крошки */
+
+.crumbs li {
+	margin: 40px 0 20px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.crumbs a {
+	color: #d3d3d3;
+}
+
+/* Категории */
+
+.types h1 {
+	margin-bottom: 30px;
+}
+
+.types {
+	margin-bottom: 200px;
+}
+
+.type {
+	border: 1px solid #dbdcdd;
+	border-radius: 4px;
+	width: 204px;
+	height: 270px;
+	float: left;
+	margin-right: 36px;
+	margin-bottom: 36px;
+	box-sizing: border-box;
+	display: block;
+}
+
+.type:nth-child(5n+1) {
+	margin-right: 0;
+}
+
+.type:hover {
+	border-color: #277fe8;
+}
+
+.product {
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+.name {
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Proxima Nova Lt';
+    margin-bottom: 20px;
+    height: 42px;
+    text-align: center;
+}
+
+.quantity {
+	text-align: center;
+	font-family: 'Cuprum';
+	color: #7c7c7c;
+}
+

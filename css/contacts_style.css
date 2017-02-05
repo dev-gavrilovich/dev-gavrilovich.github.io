@@ -1,0 +1,101 @@
+h1 {
+	margin: 70px 0 34px 0;
+}
+
+.address, .map {
+	float: left;
+}
+
+.address {
+	margin-right: 64px;
+}
+
+.info h2 {
+	margin-bottom: 8px;
+}
+
+.info p {
+	font-family: 'Cuprum Bold';
+	font-size: 18px;
+}
+
+.email {
+	margin-top: 34px;
+}
+
+.adv {
+	margin-top: 62px;
+}
+
+.adv p {
+	font-family: 'Cuprum';
+}
+
+span {
+	color: #0078ea;
+	font-weight: 10px;
+	font-family: 'Cuprum Bold';
+}
+
+/* Обратная связь */
+
+label {
+	font-family: 'Proxima Nova Lt';
+	font-size: 16px;
+}
+
+form {
+	width: 396px;
+}
+
+input, select, textarea {
+	display: block;
+	width: 100%;
+}
+
+input[type="text"], select {
+	height: 30px;
+	outline: none;
+	border: 1px solid #c7c7c7;
+	border-radius: 4px;
+	padding-left: 9px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	background: url(../images/form_button.png);
+	background-repeat: no-repeat;
+	width: 204px;
+	height: 39px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+select {
+	width: 406px;
+}
+
+textarea {
+	margin-bottom: 25px;
+	padding-top: 5px;
+	border-radius: 4px;
+	padding-left: 9px;
+	margin-top: 5px;
+	outline: none;
+	border-color: #c7c7c7;
+}
+
+input[type="text"]:focus {
+	border-color: #93bff3;
+}
+
+select:focus {
+	border-color: #93bff3;
+}
+
+textarea:focus {
+	border-color: #93bff3;
+}
+
