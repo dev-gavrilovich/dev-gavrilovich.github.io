@@ -200,6 +200,10 @@ main {
 	position: relative;
 }
 
+.banner_image:focus {
+	outline: none;
+}
+
 .arrow_left, .arrow_right {
 	background-repeat: no-repeat;
 	height: 92px;
@@ -225,11 +229,10 @@ main {
     border-radius: 100px;
  }
 
-/* Поддержка */
+/* КАЧЕСТВО */
 
 .quality {
 	margin: 35px 0 100px;
-	height: 135px;
 }
 
 .quality img {
@@ -238,10 +241,9 @@ main {
 	margin: 0 30px 10px 0;
  }
 
-.garanty, .support, .sale {
+.garanty, .sale {
 	float: left;
 	width: 364px;
-	height: 135px;
 	margin-right: 36px;
 }
 .sale {
@@ -254,6 +256,44 @@ main {
 	font-size: 18px;
 	line-height: 24px; 
 }
+
+/* Гарантия */
+
+.textik {
+	margin-left: 139px;
+}
+
+.garanty p {
+	width: 215px;
+}
+
+.garanty h2 {
+	width: 200px;
+}
+
+/* Поддержка 24 часа */
+
+.support {
+	display: flex;
+	width: 364px;
+	margin-right: 36px;
+	float: left;
+}
+
+.support h2 {
+	width: 220px;
+}
+
+.support p {
+	width: 215px;
+	margin-top: 10px;
+}
+
+.support img {
+	float: left;
+	width: 109px;
+    margin: auto 30px auto 0;
+ }
 
 /* Акции */
 
