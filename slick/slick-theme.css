@@ -32,17 +32,16 @@
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    top: 160px;
 }
 
 .slick-prev {
     background-image: url(../images/button_left.png);
-    top: 160px;
     left: -46px;
 }
 
 .slick-next {
     background-image: url(../images/button_right.png);
-    top: 160px;
     right: -46px;
 }
 
